@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+enum hari {sen, sel, rab, kam, jum};
+
+int main()
+{
+    int i;
+    hari ini;
+    
+    cout << "jadwal hari ini" << endl;
+    cin >> i;
+    
+    i = i + 0;
+    
+if (i==1) {
+    cout << "pukul 7, fisika, 8b1" <<endl;
+    cout << "pukul 9.30, b.indo, 8b2" <<endl;
+    cout << "pukul 1, matdis, 8b1" <<endl;
+} else if (i==2) {
+    cout << "tls" <<endl;
+} else if (i==3) {
+    cout << "pukul 7, tvm, 8b1" <<endl;
+    cout << "pukul 9.30, kalkulus, 8b1" <<endl;
+    cout << "pukul 1, fisika, 8b3" <<endl;
+} else if (i==4) {
+    cout << "pukul 09.30, progdas, 5b2" <<endl;
+} else if (i==5) {
+    cout << "pukul 1, kalkulus, 8b2" <<endl;
+}
+
+return 0;
+}
